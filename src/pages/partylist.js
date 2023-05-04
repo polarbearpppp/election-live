@@ -1,14 +1,13 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/shop-content";
 import '../voteoffline.css'
-import { NodeContext } from "../App";
 import { collection, doc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebase";
 
 
 export const PartyList = (props) => {
-  const { id, productName, price, productImage } = props.data;
-  const { cartItems, addToCart, removeFromCart, updateCartItemCount, removeFromCart2, addToCart2, dbar1, dbar2, dbar3 ,} =useContext(ShopContext);
+  const { id, productName,  productImage } = props.data;
+  const { cartItems, updateCartItemCount, removeFromCart2, addToCart2, dbar1, dbar2, dbar3 ,} =useContext(ShopContext);
 
   const voteColRef = collection(
     db,

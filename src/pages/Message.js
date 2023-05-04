@@ -11,12 +11,10 @@ import 'primereact/resources/primereact.css';                       // core css
 import 'primeicons/primeicons.css';                                 // icons
 import 'primeflex/primeflex.css';   
 import { Divider } from 'primereact/divider';
-import { Carousel } from 'primereact/carousel';
-import { Splitter } from 'primereact/splitter';
+
 import { ProgressBar } from 'primereact/progressbar';
 import { Slider } from 'primereact/slider';
-import { InputSwitch } from 'primereact/inputswitch';
-import { Dropdown } from 'primereact/dropdown';
+
 import { db } from '../firebase';
 import { collection, getDocs, onSnapshot } from 'firebase/firestore';
 

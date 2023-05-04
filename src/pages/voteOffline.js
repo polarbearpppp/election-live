@@ -11,7 +11,7 @@ import { ConfirmPopup, confirmPopup } from 'primereact/confirmpopup';
 import { Toast } from 'primereact/toast';
 import { Button } from 'primereact/button';
 import '../Popup.css'
-import Popup from "../pages/Popup"
+import Popup from './Popup'
 
 
 const VoteOffline = () => {

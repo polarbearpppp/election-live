@@ -20,11 +20,6 @@ const roles = {
   guest: ['read'],
 };
 
-export const NodeContext = createContext({
-  dbar1: 'เขตจตุจักร',
-  dbar2: 'แขวงลาดยาว',
-  dbar3: 'จุดที่ 5'
-});
 
 function App() {
   const {currentUser} = useContext(AuthContext);

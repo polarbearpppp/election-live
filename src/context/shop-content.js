@@ -4,7 +4,7 @@ import "../vote.css";
 import { addDoc, collection, doc, getDocs, onSnapshot, setDoc, updateDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import VoteOffline from "../pages/voteOffline";
-import { NodeContext } from "../App";
+
 
 
 export const ShopContext = createContext(null);
